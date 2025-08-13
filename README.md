@@ -1,69 +1,47 @@
-# Water Reservoir Levels & Hydropower Reliability: A Case Study of Masinga Dam, Kenya
-## Project Overview
-This project investigates the relationship between reservoir water levels, rainfall patterns, and hydropower generation at Masinga Dam, Kenya’s largest dam and a key component of the Seven Forks hydropower scheme. By combining data on water levels, precipitation, and hydropower output, the study aims to assess how natural and environmental factors influence energy reliability. The analysis will explore trends, correlations, and potential risks to hydropower stability, providing insights for sustainable water and energy management in Kenya.
+### Analyzing the Impact of Climate and Population Dynamics on Water Storage Levels in Masinga Dam, Kenya
 
-## Problem Statement
-Kenya’s electricity supply relies heavily on hydropower, with Masinga Dam serving as both a major water storage facility and an essential power generator. However, fluctuations in rainfall and changing climatic conditions have led to significant variations in reservoir levels, directly impacting hydropower output. Without a clear understanding of how these factors interact, energy planners face challenges in ensuring a stable and reliable electricity supply. This project addresses the gap by analyzing historical water level, rainfall, and hydropower generation data for Masinga Dam to identify patterns and vulnerabilities that could affect long-term energy reliability.
+A Case Study of Hydrological Trends, Weather Patterns, and Population Growth in Machakos County
 
-## Research Questions
-How have Masinga Dam’s water levels changed over time between 2018 and 2020?
+### Project Overview
+This project investigates the interplay between climatic factors—specifically temperature and precipitation—and population dynamics on the water storage levels of Masinga Dam, a critical water resource in Kenya. Using data collected over multiple years, including reservoir water levels, daily weather conditions, and population statistics from Machakos County, this study aims to understand how environmental and human factors collectively influence the availability and sustainability of water in the region. The findings will provide insights for water resource management, helping policymakers and stakeholders make informed decisions in the face of climate variability and increasing population pressures.
 
-What is the relationship between seasonal rainfall patterns and Masinga Dam’s reservoir levels?
+### Problem Statement
+Kenya faces growing challenges in managing its water resources due to climate variability and increasing population demands. Masinga Dam, one of the key reservoirs supporting water supply, irrigation, and hydropower generation, has experienced fluctuations in water storage levels. These fluctuations are influenced not only by changing weather patterns such as temperature and precipitation but also by rising population pressures in nearby counties like Machakos. This project seeks to quantify and analyze the combined effects of climate and demographic factors on Masinga Dam’s water levels, addressing the critical need for integrated water management strategies that account for both environmental and socio-economic drivers.
 
-How does Masinga Dam’s water level impact its hydropower generation output?
+### Research Questions
+What are the seasonal trends in water storage levels at Masinga Dam from 2018 to 2024?
 
-Are there observable lag effects between rainfall events and changes in reservoir water levels?
+How does precipitation influence water levels in Masinga Dam?
 
-How do extreme high or low water levels affect the consistency of electricity generation?
+What are the impacts of extreme temperature events on dam water levels?
 
-Which months or seasons show the highest and lowest combined rainfall, water levels, and power output patterns?
+How does the water level uncertainty (wse_u) vary with seasonal and weather changes?
 
-How do hydropower generation trends align with both rainfall and water level variations over time?
+How does population growth in Machakos County affect water demand and usage in the Masinga Dam catchment area?
 
-## Methodology
-Step 1: Data Collection
-I will use Python and APIs to collect data from:
+How might changes in household size and number of households influence future water demand projections?
 
-Reservoir Water Level Data – DAHITI Database
+How do temperature and precipitation jointly affect water level uncertainty over time?
 
-Rainfall Data – CHIRPS Climate Data or World Bank Climate Data API
+### Tools
+Python (Pandas, NumPy, Matplotlib, Seaborn, Plotly) – Data cleaning, wrangling, analysis, and visualization.
 
-Hydropower Generation Data – KenGen Annual Reports or OpenAFRICA Energy Datasets
+SQL – Storing cleaned datasets and running queries for analysis.
 
-Step 2: Data Cleaning & Preprocessing
-Use Python (Pandas/Numpy) to clean datasets, standardize formats, and merge by date.
+Tableau – Dashboard creation for insights visualization.
 
-Remove missing or inconsistent entries.
+APIs/Web Scraping – For collecting weather and population data (if applicable).
 
-Store cleaned datasets in a SQL database for structured querying.
+### Methodology
+Data Collection – Historical dam water levels, precipitation, temperature data, and population statistics from publicly available datasets and official sources.
 
-Step 3: Visualization & Analysis
-Use Python (Matplotlib, Seaborn, Plotly) for:
+Data Cleaning & Merging – Used Pandas and NumPy to clean, format, and merge datasets into a unified structure for analysis.
 
-Time-series analysis of water levels, rainfall, and hydropower generation.
+Exploratory Data Analysis (EDA) – Performed statistical summaries, identified trends, and detected anomalies.
 
-Correlation analysis between the three datasets.
+Visualization – Created static charts (Matplotlib, Seaborn) and interactive dashboards (Plotly, Tableau) to display insights.
 
-Identification of seasonal patterns and extreme values.
+SQL Integration – Stored cleaned data in a SQL database and ran analytical queries to support visualization and reporting.
 
-Interactive dashboards and graphs for better exploration.
-
-Use GeoPandas if spatial mapping is required for rainfall distribution.
-
-Step 4: Dashboard Creation
-Use Tableau to create an interactive dashboard summarizing findings.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Insights & Reporting – Interpreted results for each research question and linked findings to practical water management implications.
 
